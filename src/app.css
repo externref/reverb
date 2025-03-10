@@ -1,0 +1,176 @@
+@import 'tailwindcss';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+.bg-nord-polar-night-darkest {
+  background-color: #2e3440;
+}
+.bg-nord-polar-night-darker {
+  background-color: #3b4252;
+}
+.bg-nord-polar-night-dark {
+  background-color: #434c5e;
+}
+.bg-nord-polar-night {
+  background-color: #4c566a;
+}
+.bg-nord-snow-storm-lightest {
+  background-color: #d8dee9;
+}
+.bg-nord-snow-storm-lighter {
+  background-color: #e5e9f0;
+}
+.bg-nord-snow-storm-light {
+  background-color: #eceff4;
+}
+.bg-nord-frost-green {
+  background-color: #8fbcbb;
+}
+.bg-nord-frost-cyan {
+  background-color: #88c0d0;
+}
+.bg-nord-frost-blue {
+  background-color: #81a1c1;
+}
+.bg-nord-frost-dark-blue {
+  background-color: #5e81ac;
+}
+.bg-nord-aurora-red {
+  background-color: #bf616a;
+}
+.bg-nord-aurora-orange {
+  background-color: #d08770;
+}
+.bg-nord-aurora-yellow {
+  background-color: #ebcb8b;
+}
+.bg-nord-aurora-green {
+  background-color: #a3be8c;
+}
+.bg-nord-aurora-purple {
+  background-color: #b48ead;
+}
+
+.text-nord-polar-night-darkest {
+  color: #2e3440;
+}
+.text-nord-polar-night-darker {
+  color: #3b4252;
+}
+.text-nord-polar-night-dark {
+  color: #434c5e;
+}
+.text-nord-polar-night {
+  color: #4c566a;
+}
+.text-nord-snow-storm-lightest {
+  color: #d8dee9;
+}
+.text-nord-snow-storm-lighter {
+  color: #e5e9f0;
+}
+.text-nord-snow-storm-light {
+  color: #eceff4;
+}
+.text-nord-frost-green {
+  color: #8fbcbb;
+}
+.text-nord-frost-cyan {
+  color: #88c0d0;
+}
+.text-nord-frost-blue {
+  color: #81a1c1;
+}
+.text-nord-frost-dark-blue {
+  color: #5e81ac;
+}
+.text-nord-aurora-red {
+  color: #bf616a;
+}
+.text-nord-aurora-orange {
+  color: #d08770;
+}
+.text-nord-aurora-yellow {
+  color: #ebcb8b;
+}
+.text-nord-aurora-green {
+  color: #a3be8c;
+}
+.text-nord-aurora-purple {
+  color: #b48ead;
+}
+
+.border-nord-polar-night-darkest {
+  border-color: #2e3440;
+}
+.border-nord-polar-night-darker {
+  border-color: #3b4252;
+}
+.border-nord-polar-night-dark {
+  border-color: #434c5e;
+}
+.border-nord-polar-night {
+  border-color: #4c566a;
+}
+.border-nord-snow-storm-lightest {
+  border-color: #d8dee9;
+}
+.border-nord-snow-storm-lighter {
+  border-color: #e5e9f0;
+}
+.border-nord-snow-storm-light {
+  border-color: #eceff4;
+}
+.border-nord-frost-green {
+  border-color: #8fbcbb;
+}
+.border-nord-frost-cyan {
+  border-color: #88c0d0;
+}
+.border-nord-frost-blue {
+  border-color: #81a1c1;
+}
+.border-nord-frost-dark-blue {
+  border-color: #5e81ac;
+}
+.border-nord-aurora-red {
+  border-color: #bf616a;
+}
+.border-nord-aurora-orange {
+  border-color: #d08770;
+}
+.border-nord-aurora-yellow {
+  border-color: #ebcb8b;
+}
+.border-nord-aurora-green {
+  border-color: #a3be8c;
+}
+.border-nord-aurora-purple {
+  border-color: #b48ead;
+}
+
+@font-face {
+  font-family: 'font-exo2';
+  src: url('/Exo2-Medium.ttf') format('truetype');
+}
+
+.font-exo2 {
+  font-family: 'font-exo2', sans-serif;
+}
+
+@font-face {
+  font-family: 'font-kode';
+  src: url('/KodeMono-Regular.ttf') format('truetype');
+}
+
+.font-kode {
+  font-family: 'font-kode', monospace;
+}
+
+@font-face {
+  font-family: 'font-segoe';
+  src: url('/SegoeUI.ttf') format('truetype');
+}
+
+.font-segoe {
+  font-family: 'font-segoe', sans-serif;
+}
