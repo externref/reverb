@@ -1,11 +1,19 @@
 <script lang="ts">
   import { invoke } from '@tauri-apps/api/core';
   import { goto } from '$app/navigation';
+  import { onMount } from 'svelte';
   let username: string;
   async function createUser() {
-    await invoke('create_config', { username });
+    await invoke('create_user', { username });
     goto('/dashboard');
   }
+
+  onMount(async () => {
+    await invoke('update_discord_presence', {
+      state: 'creating/syncing user',
+      details: 'Setting up user',
+    });
+  });
 </script>
 
 <div class="flex justify-center items-center mt-34">
