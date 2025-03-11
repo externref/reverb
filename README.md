@@ -3,7 +3,7 @@
 # reverb\_
 
 <img src="https://img.shields.io/github/license/externref/reverb">
-<img src="https://sloc.xyz/github/externref/reverb?category=code&style=flat-square">
+<img src="./assets/lines.svg" alt="Lines of Code">
 <img src="https://img.shields.io/badge/rust-%23000000.svg?style=flat&logo=rust&logoColor=white">
 <img src="https://img.shields.io/badge/sveltekit-%23f1413d.svg?style=flat&logo=svelte&logoColor=white">
 <img src="https://img.shields.io/github/stars/externref/reverb">
@@ -38,3 +38,7 @@ reverb\_ is a music player application built with Tauri and SvelteKit.
    git clone https://github.com/yourusername/reverb.git
    cd reverb
    ```
+
+```
+
+```
