@@ -1,0 +1,42 @@
+name: Update Code Metrics Badge
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  update-loc-badge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get install -y cloc
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run LOC script
+        run: python assets/readme.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add assets/lines.svg
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update LOC badge"
+          git push
