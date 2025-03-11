@@ -22,6 +22,7 @@
     }
   },
   "bundle": {
+    "resources": ["bin/**/*"],
     "active": true,
     "targets": "all",
     "icon": [

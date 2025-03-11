@@ -8,3 +8,9 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+src-tauri/bin/ffmpeg
+src-tauri/bin/ffmpeg.exe
+src-tauri/bin/ffprobe
+src-tauri/bin/ffprobe.exe
+src-tauri/bin/yt-dlp
+src-tauri/bin/yt-dlp.exe

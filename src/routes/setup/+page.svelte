@@ -41,7 +41,8 @@
     <p class="my-4">
       By proceeding, you agree to our <a
         class="text-nord-aurora-green"
-        href="https://externref.github.io/reverb/#tos">Terms of services</a
+        href="https://github.com/externref/reverb/wiki/Terms-of-Service"
+        target="_blank">Terms of services</a
       >
     </p>
   </div>
